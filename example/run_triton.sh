@@ -1,0 +1,1 @@
+docker run --gpus all -p 8000:8000 --rm -v "$(pwd)/triton_repo":/models --entrypoint tritonserver nvcr.io/nvidia/tritonserver:22.12-py3 --model-repository=/models

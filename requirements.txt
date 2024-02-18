@@ -1,0 +1,6 @@
+onnxruntime-gpu
+tritonclient[http]
+numpy
+onnx 
+torch
+torchvision
